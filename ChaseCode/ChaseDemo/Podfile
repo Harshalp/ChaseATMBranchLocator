@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'ChaseDemo.xcworkspace'
+
+use_frameworks!
+
+pod 'GoogleMaps'
+
+target ‘ChaseDemo’ do
+  pod 'GoogleMaps'
+end
+target ‘ChaseDemoTests’ do
+  pod 'GoogleMaps'
+end
+target ‘ChaseDemoUITests’ do
+  pod 'GoogleMaps'
+end
+target :ChaseDemoKit do
+  xcodeproj ‘../ChaseDemoKit/ChaseDemoKit'
+   pod 'GoogleMaps'
+end

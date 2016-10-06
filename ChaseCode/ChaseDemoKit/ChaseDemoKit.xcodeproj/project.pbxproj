@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12111D9B1DA35004007180BC /* ChaseDemoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12111D911DA35003007180BC /* ChaseDemoKit.framework */; };
+		12111DA01DA35004007180BC /* ChaseDemoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111D9F1DA35004007180BC /* ChaseDemoKitTests.swift */; };
+		12111DA21DA35004007180BC /* ChaseDemoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 12111D941DA35003007180BC /* ChaseDemoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12111DBA1DA3508C007180BC /* ChaseATMMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111DB51DA3508C007180BC /* ChaseATMMapViewController.swift */; };
+		12111DBB1DA3508C007180BC /* ChaseATMDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111DB61DA3508C007180BC /* ChaseATMDetailViewController.swift */; };
+		12111DBC1DA3508C007180BC /* ChaseATMDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12111DB71DA3508C007180BC /* ChaseATMDetailViewController.xib */; };
+		12111DBD1DA3508C007180BC /* ChaseLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111DB81DA3508C007180BC /* ChaseLocationManager.swift */; };
+		12111DBE1DA3508C007180BC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111DB91DA3508C007180BC /* NetworkManager.swift */; };
+		12111DC11DA350A9007180BC /* AtmBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111DC01DA350A9007180BC /* AtmBranch.swift */; };
+		1261115D1DA403E00052E58D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261115C1DA403E00052E58D /* Constants.swift */; };
+		1261116B1DA43A9A0052E58D /* ChaseATMServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261116A1DA43A9A0052E58D /* ChaseATMServiceManager.swift */; };
+		D596B5119016E0AF166E198B /* Pods_ChaseDemoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA1C40182288B791CB836C9 /* Pods_ChaseDemoKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12111D9C1DA35004007180BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12111D881DA35003007180BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12111D901DA35003007180BC;
+			remoteInfo = ChaseDemoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12111D911DA35003007180BC /* ChaseDemoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChaseDemoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12111D941DA35003007180BC /* ChaseDemoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChaseDemoKit.h; sourceTree = "<group>"; };
+		12111D951DA35003007180BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12111D9A1DA35004007180BC /* ChaseDemoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseDemoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12111D9F1DA35004007180BC /* ChaseDemoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseDemoKitTests.swift; sourceTree = "<group>"; };
+		12111DA11DA35004007180BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12111DB51DA3508C007180BC /* ChaseATMMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseATMMapViewController.swift; sourceTree = "<group>"; };
+		12111DB61DA3508C007180BC /* ChaseATMDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseATMDetailViewController.swift; sourceTree = "<group>"; };
+		12111DB71DA3508C007180BC /* ChaseATMDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseATMDetailViewController.xib; sourceTree = "<group>"; };
+		12111DB81DA3508C007180BC /* ChaseLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseLocationManager.swift; sourceTree = "<group>"; };
+		12111DB91DA3508C007180BC /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		12111DC01DA350A9007180BC /* AtmBranch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtmBranch.swift; sourceTree = "<group>"; };
+		1261115C1DA403E00052E58D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1261116A1DA43A9A0052E58D /* ChaseATMServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseATMServiceManager.swift; sourceTree = "<group>"; };
+		368D6FF39FA53E56176AB070 /* Pods-ChaseDemoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemoKit.debug.xcconfig"; path = "../ChaseDemo/Pods/Target Support Files/Pods-ChaseDemoKit/Pods-ChaseDemoKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7FA1C40182288B791CB836C9 /* Pods_ChaseDemoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaseDemoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B567ABB515ADB0E2B17635 /* Pods-ChaseDemoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemoKit.release.xcconfig"; path = "../ChaseDemo/Pods/Target Support Files/Pods-ChaseDemoKit/Pods-ChaseDemoKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12111D8D1DA35003007180BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D596B5119016E0AF166E198B /* Pods_ChaseDemoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D971DA35004007180BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111D9B1DA35004007180BC /* ChaseDemoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12111D871DA35003007180BC = {
+			isa = PBXGroup;
+			children = (
+				12111D931DA35003007180BC /* ChaseDemoKit */,
+				12111D9E1DA35004007180BC /* ChaseDemoKitTests */,
+				12111D921DA35003007180BC /* Products */,
+				12111DCC1DA357CF007180BC /* Frameworks */,
+				836F18ADD657496D3455A29C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		12111D921DA35003007180BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12111D911DA35003007180BC /* ChaseDemoKit.framework */,
+				12111D9A1DA35004007180BC /* ChaseDemoKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12111D931DA35003007180BC /* ChaseDemoKit */ = {
+			isa = PBXGroup;
+			children = (
+				1261115B1DA4036A0052E58D /* Constants */,
+				12111DBF1DA3509B007180BC /* Model */,
+				12111DB41DA3507A007180BC /* Controller */,
+				12111D941DA35003007180BC /* ChaseDemoKit.h */,
+				12111D951DA35003007180BC /* Info.plist */,
+			);
+			path = ChaseDemoKit;
+			sourceTree = "<group>";
+		};
+		12111D9E1DA35004007180BC /* ChaseDemoKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				12111D9F1DA35004007180BC /* ChaseDemoKitTests.swift */,
+				12111DA11DA35004007180BC /* Info.plist */,
+			);
+			path = ChaseDemoKitTests;
+			sourceTree = "<group>";
+		};
+		12111DB41DA3507A007180BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12111DB51DA3508C007180BC /* ChaseATMMapViewController.swift */,
+				12111DB61DA3508C007180BC /* ChaseATMDetailViewController.swift */,
+				12111DB71DA3508C007180BC /* ChaseATMDetailViewController.xib */,
+				12111DB81DA3508C007180BC /* ChaseLocationManager.swift */,
+				1261116A1DA43A9A0052E58D /* ChaseATMServiceManager.swift */,
+				12111DB91DA3508C007180BC /* NetworkManager.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		12111DBF1DA3509B007180BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12111DC01DA350A9007180BC /* AtmBranch.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12111DCC1DA357CF007180BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FA1C40182288B791CB836C9 /* Pods_ChaseDemoKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1261115B1DA4036A0052E58D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1261115C1DA403E00052E58D /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		836F18ADD657496D3455A29C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				368D6FF39FA53E56176AB070 /* Pods-ChaseDemoKit.debug.xcconfig */,
+				F5B567ABB515ADB0E2B17635 /* Pods-ChaseDemoKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12111D8E1DA35003007180BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111DA21DA35004007180BC /* ChaseDemoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12111D901DA35003007180BC /* ChaseDemoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12111DA51DA35004007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoKit" */;
+			buildPhases = (
+				15B8BBA1679210D8716B8134 /* [CP] Check Pods Manifest.lock */,
+				12111D8C1DA35003007180BC /* Sources */,
+				12111D8D1DA35003007180BC /* Frameworks */,
+				12111D8E1DA35003007180BC /* Headers */,
+				12111D8F1DA35003007180BC /* Resources */,
+				C33C0B4959707735107AE869 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaseDemoKit;
+			productName = ChaseDemoKit;
+			productReference = 12111D911DA35003007180BC /* ChaseDemoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		12111D991DA35004007180BC /* ChaseDemoKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12111DA81DA35004007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoKitTests" */;
+			buildPhases = (
+				12111D961DA35004007180BC /* Sources */,
+				12111D971DA35004007180BC /* Frameworks */,
+				12111D981DA35004007180BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12111D9D1DA35004007180BC /* PBXTargetDependency */,
+			);
+			name = ChaseDemoKitTests;
+			productName = ChaseDemoKitTests;
+			productReference = 12111D9A1DA35004007180BC /* ChaseDemoKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12111D881DA35003007180BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Harshal Pandhe";
+				TargetAttributes = {
+					12111D901DA35003007180BC = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+					12111D991DA35004007180BC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 12111D8B1DA35003007180BC /* Build configuration list for PBXProject "ChaseDemoKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12111D871DA35003007180BC;
+			productRefGroup = 12111D921DA35003007180BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12111D901DA35003007180BC /* ChaseDemoKit */,
+				12111D991DA35004007180BC /* ChaseDemoKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12111D8F1DA35003007180BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111DBC1DA3508C007180BC /* ChaseATMDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D981DA35004007180BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B8BBA1679210D8716B8134 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C33C0B4959707735107AE869 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../ChaseDemo/Pods/Target Support Files/Pods-ChaseDemoKit/Pods-ChaseDemoKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12111D8C1DA35003007180BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111DBE1DA3508C007180BC /* NetworkManager.swift in Sources */,
+				12111DBA1DA3508C007180BC /* ChaseATMMapViewController.swift in Sources */,
+				12111DBB1DA3508C007180BC /* ChaseATMDetailViewController.swift in Sources */,
+				1261116B1DA43A9A0052E58D /* ChaseATMServiceManager.swift in Sources */,
+				12111DBD1DA3508C007180BC /* ChaseLocationManager.swift in Sources */,
+				12111DC11DA350A9007180BC /* AtmBranch.swift in Sources */,
+				1261115D1DA403E00052E58D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D961DA35004007180BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111DA01DA35004007180BC /* ChaseDemoKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12111D9D1DA35004007180BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12111D901DA35003007180BC /* ChaseDemoKit */;
+			targetProxy = 12111D9C1DA35004007180BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12111DA31DA35004007180BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12111DA41DA35004007180BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12111DA61DA35004007180BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368D6FF39FA53E56176AB070 /* Pods-ChaseDemoKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChaseDemoKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemoKit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12111DA71DA35004007180BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B567ABB515ADB0E2B17635 /* Pods-ChaseDemoKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChaseDemoKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemoKit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		12111DA91DA35004007180BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChaseDemoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemoKit.app.ChaseDemoKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12111DAA1DA35004007180BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChaseDemoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemoKit.app.ChaseDemoKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12111D8B1DA35003007180BC /* Build configuration list for PBXProject "ChaseDemoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12111DA31DA35004007180BC /* Debug */,
+				12111DA41DA35004007180BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12111DA51DA35004007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12111DA61DA35004007180BC /* Debug */,
+				12111DA71DA35004007180BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12111DA81DA35004007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12111DA91DA35004007180BC /* Debug */,
+				12111DAA1DA35004007180BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12111D881DA35003007180BC /* Project object */;
+}

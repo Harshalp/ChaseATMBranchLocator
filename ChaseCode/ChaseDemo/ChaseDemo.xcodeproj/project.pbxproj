@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022E847E1CBCC0066BE2190E /* Pods_ChaseDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60061C5DD03E3DB4D585B4CD /* Pods_ChaseDemoTests.framework */; };
+		12111D361DA34EEA007180BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111D351DA34EEA007180BC /* AppDelegate.swift */; };
+		12111D381DA34EEA007180BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111D371DA34EEA007180BC /* ViewController.swift */; };
+		12111D3B1DA34EEA007180BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12111D391DA34EEA007180BC /* Main.storyboard */; };
+		12111D3D1DA34EEA007180BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12111D3C1DA34EEA007180BC /* Assets.xcassets */; };
+		12111D401DA34EEA007180BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12111D3E1DA34EEA007180BC /* LaunchScreen.storyboard */; };
+		12111D4B1DA34EEA007180BC /* ChaseDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111D4A1DA34EEA007180BC /* ChaseDemoTests.swift */; };
+		12111D561DA34EEA007180BC /* ChaseDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12111D551DA34EEA007180BC /* ChaseDemoUITests.swift */; };
+		12111DC51DA352C6007180BC /* ChaseDemoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12111DB11DA35040007180BC /* ChaseDemoKit.framework */; };
+		12111DC61DA352C6007180BC /* ChaseDemoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12111DB11DA35040007180BC /* ChaseDemoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1261115F1DA4049E0052E58D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261115E1DA4049E0052E58D /* Constants.swift */; };
+		126111691DA438D50052E58D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 126111681DA438D50052E58D /* Localizable.strings */; };
+		B350CD60B3DB9BAEE742FFFD /* Pods_ChaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB4A6FF185DFAB932C8EA10 /* Pods_ChaseDemo.framework */; };
+		DD5E2AB4229076091ABACBE0 /* Pods_ChaseDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72415F5370F25EF74C3BEF4 /* Pods_ChaseDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12111D471DA34EEA007180BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12111D2A1DA34EEA007180BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12111D311DA34EEA007180BC;
+			remoteInfo = ChaseDemo;
+		};
+		12111D521DA34EEA007180BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12111D2A1DA34EEA007180BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12111D311DA34EEA007180BC;
+			remoteInfo = ChaseDemo;
+		};
+		12111DB01DA35040007180BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12111DAB1DA3503F007180BC /* ChaseDemoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12111D911DA35003007180BC;
+			remoteInfo = ChaseDemoKit;
+		};
+		12111DB21DA35040007180BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12111DAB1DA3503F007180BC /* ChaseDemoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12111D9A1DA35004007180BC;
+			remoteInfo = ChaseDemoKitTests;
+		};
+		12111DC71DA352C6007180BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12111DAB1DA3503F007180BC /* ChaseDemoKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 12111D901DA35003007180BC;
+			remoteInfo = ChaseDemoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12111DC91DA352C7007180BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				12111DC61DA352C6007180BC /* ChaseDemoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		092666330FBDF57663FA5C52 /* Pods-ChaseDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseDemoTests/Pods-ChaseDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		12111D321DA34EEA007180BC /* ChaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12111D351DA34EEA007180BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12111D371DA34EEA007180BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12111D3A1DA34EEA007180BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12111D3C1DA34EEA007180BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12111D3F1DA34EEA007180BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12111D411DA34EEA007180BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12111D461DA34EEA007180BC /* ChaseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12111D4A1DA34EEA007180BC /* ChaseDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseDemoTests.swift; sourceTree = "<group>"; };
+		12111D4C1DA34EEA007180BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12111D511DA34EEA007180BC /* ChaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12111D551DA34EEA007180BC /* ChaseDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseDemoUITests.swift; sourceTree = "<group>"; };
+		12111D571DA34EEA007180BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12111DAB1DA3503F007180BC /* ChaseDemoKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChaseDemoKit.xcodeproj; path = ../ChaseDemoKit/ChaseDemoKit.xcodeproj; sourceTree = "<group>"; };
+		1261115E1DA4049E0052E58D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		126111681DA438D50052E58D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2EACE9C1D29154E37626924C /* Pods-ChaseDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseDemoUITests/Pods-ChaseDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		530BB15300BEE62851DDDDDE /* Pods-ChaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseDemo/Pods-ChaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		60061C5DD03E3DB4D585B4CD /* Pods_ChaseDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaseDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB4A6FF185DFAB932C8EA10 /* Pods_ChaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A896C5745C94748F19AF5C23 /* Pods-ChaseDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseDemoTests/Pods-ChaseDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B72415F5370F25EF74C3BEF4 /* Pods_ChaseDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaseDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE674F0D712854A22F58314 /* Pods-ChaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseDemo/Pods-ChaseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FAC4F42ED06A9D99650733A2 /* Pods-ChaseDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseDemoUITests/Pods-ChaseDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12111D2F1DA34EEA007180BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B350CD60B3DB9BAEE742FFFD /* Pods_ChaseDemo.framework in Frameworks */,
+				12111DC51DA352C6007180BC /* ChaseDemoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D431DA34EEA007180BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022E847E1CBCC0066BE2190E /* Pods_ChaseDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D4E1DA34EEA007180BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5E2AB4229076091ABACBE0 /* Pods_ChaseDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12111D291DA34EEA007180BC = {
+			isa = PBXGroup;
+			children = (
+				12111DAB1DA3503F007180BC /* ChaseDemoKit.xcodeproj */,
+				12111D341DA34EEA007180BC /* ChaseDemo */,
+				12111D491DA34EEA007180BC /* ChaseDemoTests */,
+				12111D541DA34EEA007180BC /* ChaseDemoUITests */,
+				12111D331DA34EEA007180BC /* Products */,
+				8E3DA10DC278206014530354 /* Pods */,
+				E0E28DDF93072006136C7EEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12111D331DA34EEA007180BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12111D321DA34EEA007180BC /* ChaseDemo.app */,
+				12111D461DA34EEA007180BC /* ChaseDemoTests.xctest */,
+				12111D511DA34EEA007180BC /* ChaseDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12111D341DA34EEA007180BC /* ChaseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				12111D351DA34EEA007180BC /* AppDelegate.swift */,
+				12111D371DA34EEA007180BC /* ViewController.swift */,
+				12111D391DA34EEA007180BC /* Main.storyboard */,
+				12111D3C1DA34EEA007180BC /* Assets.xcassets */,
+				12111D3E1DA34EEA007180BC /* LaunchScreen.storyboard */,
+				12111D411DA34EEA007180BC /* Info.plist */,
+				1261115E1DA4049E0052E58D /* Constants.swift */,
+				126111681DA438D50052E58D /* Localizable.strings */,
+			);
+			path = ChaseDemo;
+			sourceTree = "<group>";
+		};
+		12111D491DA34EEA007180BC /* ChaseDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12111D4A1DA34EEA007180BC /* ChaseDemoTests.swift */,
+				12111D4C1DA34EEA007180BC /* Info.plist */,
+			);
+			path = ChaseDemoTests;
+			sourceTree = "<group>";
+		};
+		12111D541DA34EEA007180BC /* ChaseDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12111D551DA34EEA007180BC /* ChaseDemoUITests.swift */,
+				12111D571DA34EEA007180BC /* Info.plist */,
+			);
+			path = ChaseDemoUITests;
+			sourceTree = "<group>";
+		};
+		12111DAC1DA3503F007180BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12111DB11DA35040007180BC /* ChaseDemoKit.framework */,
+				12111DB31DA35040007180BC /* ChaseDemoKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3DA10DC278206014530354 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				530BB15300BEE62851DDDDDE /* Pods-ChaseDemo.debug.xcconfig */,
+				CEE674F0D712854A22F58314 /* Pods-ChaseDemo.release.xcconfig */,
+				A896C5745C94748F19AF5C23 /* Pods-ChaseDemoTests.debug.xcconfig */,
+				092666330FBDF57663FA5C52 /* Pods-ChaseDemoTests.release.xcconfig */,
+				2EACE9C1D29154E37626924C /* Pods-ChaseDemoUITests.debug.xcconfig */,
+				FAC4F42ED06A9D99650733A2 /* Pods-ChaseDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0E28DDF93072006136C7EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4A6FF185DFAB932C8EA10 /* Pods_ChaseDemo.framework */,
+				60061C5DD03E3DB4D585B4CD /* Pods_ChaseDemoTests.framework */,
+				B72415F5370F25EF74C3BEF4 /* Pods_ChaseDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12111D311DA34EEA007180BC /* ChaseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12111D5A1DA34EEA007180BC /* Build configuration list for PBXNativeTarget "ChaseDemo" */;
+			buildPhases = (
+				4D516E3C705D9EE1FCD7BEAE /* [CP] Check Pods Manifest.lock */,
+				12111D2E1DA34EEA007180BC /* Sources */,
+				12111D2F1DA34EEA007180BC /* Frameworks */,
+				12111D301DA34EEA007180BC /* Resources */,
+				96AA6848A7126B81B7713230 /* [CP] Embed Pods Frameworks */,
+				C16FA6BC860C21BCC59E94F7 /* [CP] Copy Pods Resources */,
+				12111DC91DA352C7007180BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12111DC81DA352C6007180BC /* PBXTargetDependency */,
+			);
+			name = ChaseDemo;
+			productName = ChaseDemo;
+			productReference = 12111D321DA34EEA007180BC /* ChaseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12111D451DA34EEA007180BC /* ChaseDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12111D5D1DA34EEA007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoTests" */;
+			buildPhases = (
+				3351E1218B0F186F68F5F4F2 /* [CP] Check Pods Manifest.lock */,
+				12111D421DA34EEA007180BC /* Sources */,
+				12111D431DA34EEA007180BC /* Frameworks */,
+				12111D441DA34EEA007180BC /* Resources */,
+				14BD22B83CF1FF74BA807845 /* [CP] Embed Pods Frameworks */,
+				5B79D78E4659AED707DF2E93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12111D481DA34EEA007180BC /* PBXTargetDependency */,
+			);
+			name = ChaseDemoTests;
+			productName = ChaseDemoTests;
+			productReference = 12111D461DA34EEA007180BC /* ChaseDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12111D501DA34EEA007180BC /* ChaseDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12111D601DA34EEA007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoUITests" */;
+			buildPhases = (
+				80B0A8B5ADECA91AE63E68A1 /* [CP] Check Pods Manifest.lock */,
+				12111D4D1DA34EEA007180BC /* Sources */,
+				12111D4E1DA34EEA007180BC /* Frameworks */,
+				12111D4F1DA34EEA007180BC /* Resources */,
+				461EFE50545C55EA073DC281 /* [CP] Embed Pods Frameworks */,
+				F0C0BDF44B9AB0A9DD1DDECE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12111D531DA34EEA007180BC /* PBXTargetDependency */,
+			);
+			name = ChaseDemoUITests;
+			productName = ChaseDemoUITests;
+			productReference = 12111D511DA34EEA007180BC /* ChaseDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12111D2A1DA34EEA007180BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Harshal Pandhe";
+				TargetAttributes = {
+					12111D311DA34EEA007180BC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
+					12111D451DA34EEA007180BC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12111D311DA34EEA007180BC;
+					};
+					12111D501DA34EEA007180BC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12111D311DA34EEA007180BC;
+					};
+				};
+			};
+			buildConfigurationList = 12111D2D1DA34EEA007180BC /* Build configuration list for PBXProject "ChaseDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12111D291DA34EEA007180BC;
+			productRefGroup = 12111D331DA34EEA007180BC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 12111DAC1DA3503F007180BC /* Products */;
+					ProjectRef = 12111DAB1DA3503F007180BC /* ChaseDemoKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				12111D311DA34EEA007180BC /* ChaseDemo */,
+				12111D451DA34EEA007180BC /* ChaseDemoTests */,
+				12111D501DA34EEA007180BC /* ChaseDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		12111DB11DA35040007180BC /* ChaseDemoKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChaseDemoKit.framework;
+			remoteRef = 12111DB01DA35040007180BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		12111DB31DA35040007180BC /* ChaseDemoKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChaseDemoKitTests.xctest;
+			remoteRef = 12111DB21DA35040007180BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12111D301DA34EEA007180BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111D401DA34EEA007180BC /* LaunchScreen.storyboard in Resources */,
+				126111691DA438D50052E58D /* Localizable.strings in Resources */,
+				12111D3D1DA34EEA007180BC /* Assets.xcassets in Resources */,
+				12111D3B1DA34EEA007180BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D441DA34EEA007180BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D4F1DA34EEA007180BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14BD22B83CF1FF74BA807845 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseDemoTests/Pods-ChaseDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3351E1218B0F186F68F5F4F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		461EFE50545C55EA073DC281 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseDemoUITests/Pods-ChaseDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D516E3C705D9EE1FCD7BEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B79D78E4659AED707DF2E93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseDemoTests/Pods-ChaseDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B0A8B5ADECA91AE63E68A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96AA6848A7126B81B7713230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseDemo/Pods-ChaseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16FA6BC860C21BCC59E94F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseDemo/Pods-ChaseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C0BDF44B9AB0A9DD1DDECE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseDemoUITests/Pods-ChaseDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12111D2E1DA34EEA007180BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111D381DA34EEA007180BC /* ViewController.swift in Sources */,
+				12111D361DA34EEA007180BC /* AppDelegate.swift in Sources */,
+				1261115F1DA4049E0052E58D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D421DA34EEA007180BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111D4B1DA34EEA007180BC /* ChaseDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12111D4D1DA34EEA007180BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12111D561DA34EEA007180BC /* ChaseDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12111D481DA34EEA007180BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12111D311DA34EEA007180BC /* ChaseDemo */;
+			targetProxy = 12111D471DA34EEA007180BC /* PBXContainerItemProxy */;
+		};
+		12111D531DA34EEA007180BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12111D311DA34EEA007180BC /* ChaseDemo */;
+			targetProxy = 12111D521DA34EEA007180BC /* PBXContainerItemProxy */;
+		};
+		12111DC81DA352C6007180BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChaseDemoKit;
+			targetProxy = 12111DC71DA352C6007180BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12111D391DA34EEA007180BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12111D3A1DA34EEA007180BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12111D3E1DA34EEA007180BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12111D3F1DA34EEA007180BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12111D581DA34EEA007180BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12111D591DA34EEA007180BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12111D5B1DA34EEA007180BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530BB15300BEE62851DDDDDE /* Pods-ChaseDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChaseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaseatmlocator.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12111D5C1DA34EEA007180BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE674F0D712854A22F58314 /* Pods-ChaseDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChaseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaseatmlocator.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		12111D5E1DA34EEA007180BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A896C5745C94748F19AF5C23 /* Pods-ChaseDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemo.app.ChaseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaseDemo.app/ChaseDemo";
+			};
+			name = Debug;
+		};
+		12111D5F1DA34EEA007180BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092666330FBDF57663FA5C52 /* Pods-ChaseDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemo.app.ChaseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaseDemo.app/ChaseDemo";
+			};
+			name = Release;
+		};
+		12111D611DA34EEA007180BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EACE9C1D29154E37626924C /* Pods-ChaseDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChaseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemo.app.ChaseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChaseDemo;
+			};
+			name = Debug;
+		};
+		12111D621DA34EEA007180BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC4F42ED06A9D99650733A2 /* Pods-ChaseDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChaseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChaseDemo.app.ChaseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChaseDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12111D2D1DA34EEA007180BC /* Build configuration list for PBXProject "ChaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12111D581DA34EEA007180BC /* Debug */,
+				12111D591DA34EEA007180BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12111D5A1DA34EEA007180BC /* Build configuration list for PBXNativeTarget "ChaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12111D5B1DA34EEA007180BC /* Debug */,
+				12111D5C1DA34EEA007180BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12111D5D1DA34EEA007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12111D5E1DA34EEA007180BC /* Debug */,
+				12111D5F1DA34EEA007180BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12111D601DA34EEA007180BC /* Build configuration list for PBXNativeTarget "ChaseDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12111D611DA34EEA007180BC /* Debug */,
+				12111D621DA34EEA007180BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12111D2A1DA34EEA007180BC /* Project object */;
+}
